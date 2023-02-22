@@ -504,7 +504,7 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .CSS {
   width: 35%;
-}*/
+}
 
 .stats-title {
   font-weight: 900;
@@ -522,7 +522,7 @@ section {
   height: 1px;
   background-color: var(--color-primary-2);
   transform: translateX(-50%);
-}
+}*/
 
 /*Portfolio Content:*/
 .portfolio-text {
