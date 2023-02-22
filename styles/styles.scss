@@ -477,7 +477,7 @@ section{
   }
 }
 
-.about-stats{
+/*.about-stats{
   padding-bottom: 20vh;
   position: relative;
   //width: 60rem;
@@ -552,7 +552,7 @@ section{
     background-color: var(--color-primary-2);
     transform: translateX(-50%);
   }
-}
+}*/
 
 /*Portfolio Content:*/
 .portfolio-text{
@@ -567,7 +567,8 @@ section{
   margin: 3vw;
   position: absolute;
   width: 88vw;
-  top: 365%;
+  //top: 365%;
+  top: 305%;
   left: 0;
   .portfolio-item{
     position: relative;
