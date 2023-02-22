@@ -451,7 +451,7 @@ section {
   z-index: 1;
 }
 
-.about-stats {
+/*.about-stats {
   padding-bottom: 20vh;
   position: relative;
   left: -8rem;
@@ -504,7 +504,7 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .CSS {
   width: 35%;
-}
+}*/
 
 .stats-title {
   font-weight: 900;
