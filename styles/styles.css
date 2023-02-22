@@ -517,16 +517,17 @@ section {
   text-align: center;
   padding: 1rem 0;
   position: relative;
-  &::before{
-    content: '';
-    left: 50%;
-    top: 0;
-    width: 40%;
-    height: 1px;
-    background-color: var(--color-primary-2);
-    transform: translateX(-50%);
-  }
-}*/
+}
+.stats-title::before {
+  content: "";
+  left: 50%;
+  top: 0;
+  width: 40%;
+  height: 1px;
+  background-color: var(--color-primary-2);
+  transform: translateX(-50%);
+}
+
 /*Portfolio Content:*/
 .portfolio-text {
   padding: 2rem 0;
