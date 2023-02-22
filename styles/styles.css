@@ -118,7 +118,7 @@ section {
   pointer-events: none; /*This ensures that the icon itself will not be the target of pointer events (so if the user clicks on the button, the circle behind the icon is what reacts to the click, not the icon).*/
 }
 
-
+/*# sourceMappingURL=styles.css.map */
 .theme-btn {
   z-index: 4;
   top: 5%;
@@ -451,66 +451,62 @@ section {
   z-index: 1;
 }
 
-/*.about-stats{
+/*.about-stats {
   padding-bottom: 20vh;
   position: relative;
-  //width: 60rem;
-  //transform: translate(-20vw, 0);
-  //margin-left: 2vw;
-  //overflow: hidden;
   left: -8rem;
   width: calc(100% + 15rem);
-  .progress-bars{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2vw;
-    .progress-bar{
-      display: flex;
-      flex-direction: column;
-      .progress-title{
-        //text-transform: uppercase;
-        font-weight: 700;
-      }
-      .progress-container{
-        display: flex;
-        align-items: center;
-        .progress-text{
-          color: var(--color-primary-2);
-        }
-        .progress{
-          width: 100%;
-          height: .45rem;
-          background-color: var(--color-primary);
-          margin-left: 1rem;
-          border-radius: 25px;
-          border: 1px solid var(--color-primary-2);
-          position: relative;
-          span{
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            background-color: var(--color-secondary);
-            transition: all .4s ease-in-out;
-          }
-          .Python{
-              width: 75%;
-          }
-          .HTML{
-            width: 60%;
-          }
-          .JavaScript{
-            width: 65%;
-          }
-          .CSS{
-            width: 35%;
-          }
-        }
-      }
-    }
-  }
 }
-.stats-title{
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2vw;
+}
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+.about-stats .progress-bars .progress-bar .progress-title {
+  font-weight: 700;
+}
+.about-stats .progress-bars .progress-bar .progress-container {
+  display: flex;
+  align-items: center;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress-text {
+  color: var(--color-primary-2);
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress {
+  width: 100%;
+  height: 0.45rem;
+  background-color: var(--color-primary);
+  margin-left: 1rem;
+  border-radius: 25px;
+  border: 1px solid var(--color-primary-2);
+  position: relative;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--color-secondary);
+  transition: all 0.4s ease-in-out;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .Python {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .HTML {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .JavaScript {
+  width: 65%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .CSS {
+  width: 35%;
+}
+
+.stats-title {
   font-weight: 900;
   font-size: 2rem;
   line-height: 14vh;
@@ -526,7 +522,7 @@ section {
   height: 1px;
   background-color: var(--color-primary-2);
   transform: translateX(-50%);
-}
+}*/
 
 /*Portfolio Content:*/
 .portfolio-text {
@@ -541,7 +537,7 @@ section {
   margin: 3vw;
   position: absolute;
   width: 88vw;
-  top: 305%;
+  top: 365%;
   left: 0;
 }
 .portfolios .portfolio-item {
