@@ -271,6 +271,7 @@ section {
   display: flex;
   align-items: center;
   overflow: hidden;
+  z-index: 3;
   /*This, combined with the &::before section above, gives an animation once the mouse hovers over the button.*/
 }
 .main-btn .btn-text {
@@ -290,7 +291,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   transition: all 0.4s ease-in-out;
   z-index: -1;
 }
