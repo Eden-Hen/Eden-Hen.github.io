@@ -250,6 +250,12 @@ section {
   display: contents;
   color: var(--color-secondary);
 }
+.header-content .myupdate{
+  position: absolute;
+  top: 50%;
+  left: 30vw;
+  text-align: center;
+}
 
 /*Independent Components:*/
 .btn-container {
