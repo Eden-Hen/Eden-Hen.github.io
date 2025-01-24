@@ -268,8 +268,10 @@ section{
     }
   }
   .myupdate{
+    display: flex;
     justify-content: center;
     padding-top: 25vh;
+    position: relative;
   }
 }
 
