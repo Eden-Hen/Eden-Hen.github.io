@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px){
+    header{
+        height: 58vh;
+    }
+    section{
+        min-height: 60vh;
+    }
+    .main-title{
+        h2{
+            font-size: 8vw;
+        }
+        .backgroun-text{
+            font-size: 10vw;
+        }
+    }
+    .about-container{
+        .a-shape{
+            height: 60%;
+            top: 60%;
+        }
+        .a-shape-2{
+            height: 35%;
+            top: 119.9%;
+        }
+        .myimage{
+            top: 75%;
+        }
+        p{
+            top: calc(75%+4vw);
+            left: 35vw;
+        }
+        .about-box{
+            height: 35vh;
+            min-height: 10rem;
+        }
+        .award-title{
+            width: 10rem;
+            left: -6vw;
+        }
+        .awards{
+            margin-left: 8vw;
+            margin-top: 2vw;
+            width: calc(15rem + 40vw);
+        }
+        h5{
+            width: 20rem;
+            left: -21vw;
+            margin-top: 0.5rem;
+        }
+    }
+    .btn-container{
+        margin-left: -21vw;
+    }
+
+    .portfolio-text{
+        width: 20rem;
+        margin-left: -9rem;
+        padding: 1rem 0;
+    }
+    .portfolios{
+        top: 200%;
+    }
+    .contact-content-container{
+        flex-direction: column;
+        width: 25rem;
+        margin-left: -30vw;
+        .left-contact{
+            margin-left: 20%;
+        }
+        .right-contact{
+            transform: translateX(0);
+        }
+    }
+
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-primary);
+        .control{
+            margin: 1rem .3rem;
+        }
+    }
+}

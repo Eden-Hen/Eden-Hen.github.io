@@ -152,7 +152,7 @@ section {
   position: absolute;
   top: 20vh;
   left: 10vw;
-  z-index: 0;
+  z-index: 1;
   transition: all 1s ease-in-out;
 }
 .header-content .circle1:hover {
@@ -171,7 +171,7 @@ section {
   position: absolute;
   top: 10vh;
   left: 78vw;
-  z-index: 2;
+  z-index: 3;
   transition: all 1s ease-in-out;
 }
 .header-content .circle2:hover {
@@ -190,7 +190,7 @@ section {
   position: absolute;
   top: 10vh;
   left: 32vw;
-  z-index: 2;
+  z-index: 3;
   transition: all 1s ease-in-out;
 }
 .header-content .circle3:hover {
@@ -209,7 +209,7 @@ section {
   position: absolute;
   top: 40vh;
   left: 66vw;
-  z-index: 0;
+  z-index: 1;
   transition: all 1s ease-in-out;
 }
 .header-content .circle4:hover {
@@ -228,7 +228,7 @@ section {
   position: absolute;
   top: 8vh;
   left: 68vw;
-  z-index: 2;
+  z-index: 3;
   transition: all 1s ease-in-out;
 }
 .header-content .circle5:hover {
@@ -244,9 +244,20 @@ section {
   padding-top: 25vh;
   font-size: 6vw;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 .header-content .welcome span {
+  display: contents;
+  color: var(--color-secondary);
+}
+.header-content .myupdate {
+  display: flex;
+  justify-content: center;
+  padding-top: 30vh;
+  position: relative;
+  z-index: 0
+}
+.header-content .myupdate span {
   display: contents;
   color: var(--color-secondary);
 }
