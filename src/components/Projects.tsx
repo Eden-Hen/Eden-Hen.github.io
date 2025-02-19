@@ -3,10 +3,11 @@ import "./Projects.css"
 import { Link } from 'react-router-dom';
 
 // Import cover images for projects!
+import beaverworks from "/pages/BeaverWorks/beaverworks.jpg";
 import hackerfab from "/pages/HackerFab/hackerfab.png";
 import flowerautomata from "/pages/Automata/flowerautomata.jpg";
-// import firstrobotics from "/pages/FIRSTRobotics/firstrobotics.jpg";
-// import garcia from "/pages/Garcia/garcia.jpg";
+import firstrobotics from "/pages/FIRSTRobotics/firstrobotics.png";
+import garcia from "/pages/Garcia/garcia.jpg";
 import oldwebsite from "/pages/OldWebsite/oldwebsite.png";
 import bs2 from "/pages/BlueStamp2/bluestamp2.jpg";
 import bs1 from "/pages/BlueStamp1/bluestamp1.jpg";
@@ -16,6 +17,14 @@ const Projects: React.FC = () => {
     // To add a new project, add another dictionary to the list with the
     // proper key-value pairs.
   const projects = [
+    {
+      title: "MIT Beaver Works",
+      description:
+        "Working as a teaching assistant at MIT Beaver Works for the Autonomous RACECAR course!",
+      link: "/beaverworks", // Be careful not to include the .md!
+      directoryPrefix: "/BeaverWorks",
+        imageURL: beaverworks, // Name of the heading image
+    },
     {
       title: "Hacker Fab",
       description:
@@ -32,22 +41,22 @@ const Projects: React.FC = () => {
       directoryPrefix: "/Automata",
         imageURL: flowerautomata, // Name of the heading image
     },
-    // {
-    //   title: "NYC FIRST Robotics Internship",
-    //   description:
-    //     "Interning at the NYC FIRST STEM Center at Cornell Tech!",
-    //   link: "/firstrobotics", // Be careful not to include the .md!
-    //   directoryPrefix: "/FIRSTRobotics",
-    //     imageURL: firstrobotics, // Name of the heading image
-    // },
-    // {
-    //   title: "Garcia Summer Scholars",
-    //   description:
-    //     "I'll edit this.",
-    //   link: "/garcia", // Be careful not to include the .md!
-    //   directoryPrefix: "/Garcia",
-    //   imageURL: garcia,
-    // },
+    {
+      title: "NYC FIRST Robotics Internship",
+      description:
+        "Interning at the NYC FIRST STEM Center at Cornell Tech!",
+      link: "/firstrobotics", // Be careful not to include the .md!
+      directoryPrefix: "/FIRSTRobotics",
+        imageURL: firstrobotics, // Name of the heading image
+    },
+    {
+      title: "Garcia Summer Scholars",
+      description:
+        "Working at Stony Brook University on an integrated virtual reality, learning from demonstration pipeline.",
+      link: "/garcia", // Be careful not to include the .md!
+      directoryPrefix: "/Garcia",
+      imageURL: garcia,
+    },
     {
       title: "Old Website",
       description:

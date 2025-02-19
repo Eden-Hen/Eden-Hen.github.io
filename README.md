@@ -15,4 +15,6 @@ As a result, creating a new project takes only a few simple steps:
 2. Creating a markdown file and adding relevant images/videos in the project folder
 3. Adding a new entry into the projects dictionary in Projects.tsx
 
+The only necessary step for deploying changes is to run `npm run deploy` in the terminal.
+
 This makes this website very easy to use and keep up to date!
