@@ -1,4 +1,4 @@
-# Flower Automata!
+# Flower Automata
 
 Over winter break, I worked on creating an automata in order to get comfortable with the rapid-prototyping process and experiment with what I could make through simple wooden mechanisms.
 
