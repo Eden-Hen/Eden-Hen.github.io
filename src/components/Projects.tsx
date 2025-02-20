@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 // Import cover images for projects!
 import beaverworks from "/pages/BeaverWorks/beaverworks.jpg";
 import hackerfab from "/pages/HackerFab/hackerfab.png";
+import chromolcd from "/pages/HackerFab/chromolcd.png";
 import flowerautomata from "/pages/Automata/flowerautomata.jpg";
 import firstrobotics from "/pages/FIRSTRobotics/firstrobotics.png";
 import garcia from "/pages/Garcia/garcia.jpg";
@@ -32,6 +33,14 @@ const Projects: React.FC = () => {
       link: "/hackerfab", // Be careful not to include the .md!
       directoryPrefix: "/HackerFab",
         imageURL: hackerfab, // Name of the heading image
+    },
+    {
+      title: "ChromoLCD",
+      description:
+        "Creating a device for reprogramming photochromatic surfaces at the MIT Human Computer Interaction Engineering Lab!",
+      link: "/chromolcd", // Be careful not to include the .md!
+      directoryPrefix: "/ChromoLCD",
+        imageURL: chromolcd, // Name of the heading image
     },
     {
       title: "Flower Automata",
