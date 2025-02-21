@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // Import cover images for projects!
 import beaverworks from "/pages/BeaverWorks/beaverworks.jpg";
 import hackerfab from "/pages/HackerFab/hackerfab.png";
-import chromolcd from "/pages/HackerFab/chromolcd.png";
+import chromolcd from "/pages/ChromoLCD/chromolcd.png";
 import flowerautomata from "/pages/Automata/flowerautomata.jpg";
 import firstrobotics from "/pages/FIRSTRobotics/firstrobotics.png";
 import garcia from "/pages/Garcia/garcia.jpg";
@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
     // proper key-value pairs.
   const projects = [
     {
-      title: "MIT Beaver Works",
+      title: "MIT Beaver Works <Ongoing>",
       description:
         "Working as a teaching assistant at MIT Beaver Works for the Autonomous RACECAR course!",
       link: "/beaverworks", // Be careful not to include the .md!
@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
         imageURL: beaverworks, // Name of the heading image
     },
     {
-      title: "Hacker Fab",
+      title: "Hacker Fab <Ongoing>",
       description:
         "Co-founding an MIT chapter of Hacker Fab to create a DIY nanofabrication machine.",
       link: "/hackerfab", // Be careful not to include the .md!
