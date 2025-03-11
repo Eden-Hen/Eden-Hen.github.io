@@ -4,7 +4,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import MarkdownPage from "./components/MarkdownPage";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Website Navigation
 const App: React.FC = () => {

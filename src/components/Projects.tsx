@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import beaverworks from "/pages/BeaverWorks/beaverworks.jpg";
 import hackerfab from "/pages/HackerFab/hackerfab.png";
 import chromolcd from "/pages/ChromoLCD/chromolcd.png";
+import eelabs from "/pages/EELabs/eelabs.jpg";
 import flowerautomata from "/pages/Automata/flowerautomata.jpg";
 import firstrobotics from "/pages/FIRSTRobotics/firstrobotics.png";
 import garcia from "/pages/Garcia/garcia.jpg";
@@ -41,6 +42,14 @@ const Projects: React.FC = () => {
       link: "/chromolcd", // Be careful not to include the .md!
       directoryPrefix: "/ChromoLCD",
         imageURL: chromolcd, // Name of the heading image
+    },
+    {
+      title: "Electronic and Circuits Labs",
+      description:
+        "Documentation of various labs related to electronics and circuits!",
+      link: "/eelabs", // Be careful not to include the .md!
+      directoryPrefix: "/EELabs",
+        imageURL: eelabs, // Name of the heading image
     },
     {
       title: "Flower Automata",
