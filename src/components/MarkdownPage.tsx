@@ -21,7 +21,7 @@ function MarkdownPage() {
               <source src={props.src} type="video/mp4"/>
             </video>)
           } else {
-            return (<img style={{maxWidth:'75%'}}{...props}/>) // Add image constraints/styling!
+            return (<img style={{maxWidth:'75%', maxHeight:'30%'}}{...props}/>) // Add image constraints/styling!
           }}
       }}
     >
