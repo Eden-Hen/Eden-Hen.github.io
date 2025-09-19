@@ -6,4 +6,4 @@ Specifically, I was working on a learning-from-demonstration pipeline that would
 
 Here is the abstract for our research project:
 
-![](http://localhost:5173//pages/Garcia/abstract.pdf)
+![](https://eden-hen.github.io/pages/Garcia/abstract.pdf)
