@@ -1,0 +1,7 @@
+.react-pdf__Page {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin-left: 10%;
+    margin-right: 10%;
+  }

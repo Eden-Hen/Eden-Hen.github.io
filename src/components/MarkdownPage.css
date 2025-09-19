@@ -1,0 +1,16 @@
+.markdown{
+    color: var(--color-primary);
+    /* background-color: var(--color-secondary); */
+    background-color: #58807e;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    /* border-radius: 25px; */
+    /* padding: 5%; */
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

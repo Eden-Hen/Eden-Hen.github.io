@@ -33,6 +33,8 @@ color: var(--color-primary);
 line-height: 1.6;
 margin-bottom: 1rem;
 /* margin-left: 0.5rem; */
+margin-left: 6%;
+margin-right: 6%;
 }
 
 .about-image {
