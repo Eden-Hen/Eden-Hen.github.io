@@ -1,8 +1,6 @@
-# Electronics and Circuits Labs!
+# Electronics and Circuits Labs
 
-This page will be regularly updated with a variety of different electronics and circuits labs that I have completed. Currently, most of these have been completed as a part of my Electronics and Circuits class (6.2000). Enjoy!
-
-Update #1: Because I am a student with a lot of work, this page will be a little outdated, but I'll do my best to update whenever I have a semblance of free time.
+This page will be semi-regularly updated with a variety of different electronics and circuits labs that I have completed as a part of my Electronics and Circuits class (6.2000).
 
 ## Project #1: Gamepad Controller
 

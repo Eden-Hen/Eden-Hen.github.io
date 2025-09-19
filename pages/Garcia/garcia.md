@@ -1,5 +1,9 @@
 # Garcia Summer Scholars Program
 
-**This page is currently under construction! Details to be added soon.**
+As a part of the Garcia Summer Scholars program, I spent the summer at Stony Brook University assisting with research.
 
-This page is suffering from the fact that I only recently started documenting projects. But don't worry! I will scrouge up some proof soon!
+Specifically, I was working on a learning-from-demonstration pipeline that would allow people to use virtual reality to train a robot in performing basic human tasks.
+
+Here is the abstract for our research project:
+
+![](http://localhost:5173//pages/Garcia/abstract.pdf)
