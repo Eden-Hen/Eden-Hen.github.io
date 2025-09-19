@@ -4,4 +4,4 @@
 
 In the meantime, have a picture of the optical encoder PCB I've been working on for this course:
 
-![](http://localhost:5173//pages/BeaverWorks/opticalencoder.png)
+![](https://eden-hen.github.io/pages/BeaverWorks/opticalencoder.png)
