@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 // Import cover images for projects!
 import beaverworks from "/pages/BeaverWorks/beaverworks.jpg";
+import gocart from "/pages/GoCart/gocartdrive.jpg";
 import hackerfab from "/pages/HackerFab/hackerfab.png";
 import chromolcd from "/pages/ChromoLCD/chromolcd.png";
 import eelabs from "/pages/EELabs/eelabs.jpg";
@@ -26,6 +27,14 @@ const Projects: React.FC = () => {
       link: "/beaverworks", // Be careful not to include the .md!
       directoryPrefix: "/BeaverWorks",
         imageURL: beaverworks, // Name of the heading image
+    },
+    {
+      title: "Go Cart Drive",
+      description:
+        "Designing and building a go cart drive!",
+      link: "/gocart", // Be careful not to include the .md!
+      directoryPrefix: "/GoCart",
+        imageURL: gocart, // Name of the heading image
     },
     {
       title: "Hacker Fab <Ongoing>",
