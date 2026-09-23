@@ -6,4 +6,6 @@ Here is the full writeup:
 
 ![](https://eden-hen.github.io/pages/LEDStroboscope/report.pdf)
 
+And here is my final project demo:
+
 ![](https://drive.google.com/file/d/18dZnemYvPMf6tTshubWlSaWJBDW20u7V/view?usp=sharing)
