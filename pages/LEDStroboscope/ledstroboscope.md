@@ -4,6 +4,6 @@ For my final project in my Power Electronics Laboratory class, I designed and bu
 
 Here is the full writeup:
 
-![](https://eden-hen.github.io/pages/LEDStroboscope/ledstroboscope.pdf)
+![](https://eden-hen.github.io/pages/LEDStroboscope/report.pdf)
 
 ![](https://drive.google.com/file/d/18dZnemYvPMf6tTshubWlSaWJBDW20u7V/view?usp=sharing)
