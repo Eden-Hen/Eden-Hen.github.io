@@ -3,6 +3,9 @@ import "./Projects.css"
 import { Link } from 'react-router-dom';
 
 // Import cover images for projects!
+import oligo from "/pages/Oligo/oligo.png";
+import puzzlewall from "/pages/PuzzleWall/puzzlewall.jpeg";
+import led from "/pages/LEDStroboscope/led.jpg";
 import beaverworks from "/pages/BeaverWorks/beaverworks.jpg";
 import gocart from "/pages/GoCart/gocartdrive.jpg";
 import hackerfab from "/pages/HackerFab/hackerfab.png";
@@ -21,6 +24,30 @@ const Projects: React.FC = () => {
     // proper key-value pairs.
   const projects = [
     {
+      title: "Oligo Spacecraft Engineering Internship",
+      description:
+        "Working as a spacecraft engineering intern for Oligo Space.",
+      link: "/oligo", // Be careful not to include the .md!
+      directoryPrefix: "/Oligo",
+        imageURL: oligo, // Name of the heading image
+    },
+    {
+      title: "Puzzle Wall",
+      description:
+        "A wall with tons of hidden features!",
+      link: "/puzzlewall", // Be careful not to include the .md!
+      directoryPrefix: "/PuzzleWall",
+        imageURL: puzzlewall, // Name of the heading image
+    },
+    {
+      title: "LED Stroboscope",
+      description:
+        "Using power electronics concepts to demonstrate the stroboscopic effect.",
+      link: "/ledstroboscope", // Be careful not to include the .md!
+      directoryPrefix: "/LEDStroboscope",
+        imageURL: led, // Name of the heading image
+    },
+    {
       title: "MIT Beaver Works <Ongoing>",
       description:
         "Working as a teaching assistant at MIT Beaver Works for the Autonomous RACECAR course!",
@@ -37,7 +64,7 @@ const Projects: React.FC = () => {
         imageURL: gocart, // Name of the heading image
     },
     {
-      title: "Hacker Fab <Ongoing>",
+      title: "Hacker Fab",
       description:
         "Co-founding an MIT chapter of Hacker Fab to create a DIY nanofabrication machine.",
       link: "/hackerfab", // Be careful not to include the .md!

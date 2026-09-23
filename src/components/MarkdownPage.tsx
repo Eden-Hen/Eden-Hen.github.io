@@ -19,23 +19,46 @@ function MarkdownPage() {
 
   return <ReactMarkdown className="markdown"
       components={{
-        img:({node,...props})=>
-          {if(props.src && props.src.includes("mp4")){ // Check if it is a video (i.e. has a .mp4 extension)
-            return (
-            <video width='50%' autoPlay muted loop>
-              <source src={props.src} type="video/mp4"/>
-            </video>)
-          } else if (props.src && props.src.includes("pdf")){ // Check if it a pdf
-            return(
-              <PDFViewer pdfUrl={props.src} />
-            )
-          } else {
-            return (<img style={{maxWidth:'60%', maxHeight:'450px'}}{...props}/>) // Add image constraints/styling!
-          }},
+        img:MarkdownImage,
       }}
     >
       {markdownContent}
     </ReactMarkdown>;
+}
+
+function MarkdownImage(props: React.ComponentProps<"img">) {
+  if(props.src && props.src.includes("mp4")){ // Check if it is a video (i.e. has a .mp4 extension)
+    return (
+    <video width='50%' autoPlay muted loop>
+      <source src={props.src} type="video/mp4"/>
+    </video>)
+  } else if (props.src && props.src.includes("pdf")){ // Check if it is a pdf
+    return(
+      <PDFViewer pdfUrl={props.src} />
+    )
+  } else if (props.src && props.src.includes("drive.google.com")) {
+    const driveIdMatch = props.src.match(/\/d\/([a-zA-Z0-9_-]+)/);
+    if (driveIdMatch) {
+      const videoId = driveIdMatch[1];
+      return (
+        <div
+          className="markdown-video-container"
+          style={{ maxWidth: "60%" }}
+        >
+          <div className="video-ratio-wrapper">
+            <iframe
+              src={`https://drive.google.com/file/d/${videoId}/preview`}
+              allow="autoplay"
+              allowFullScreen
+              title={props.alt || "Google Drive Video"}
+            />
+          </div>
+        </div>
+      );
+    }
+  } else {
+    return (<img style={{maxWidth:'60%', maxHeight:'450px'}}{...props}/>) // Add image constraints/styling!
+  }
 }
 
 export default MarkdownPage;
