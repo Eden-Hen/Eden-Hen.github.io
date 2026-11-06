@@ -3,14 +3,14 @@ import "./Projects.css"
 import { Link } from 'react-router-dom';
 
 // Import cover images for projects!
-import oligo from "/pages/Oligo/oligo.png";
+// import oligo from "/pages/Oligo/oligo.png";
 import puzzlewall from "/pages/PuzzleWall/puzzlewall.jpeg";
 import led from "/pages/LEDStroboscope/led.jpg";
 import beaverworks from "/pages/BeaverWorks/beaverworks.jpg";
 import gocart from "/pages/GoCart/gocartdrive.jpg";
-import hackerfab from "/pages/HackerFab/hackerfab.png";
+// import hackerfab from "/pages/HackerFab/hackerfab.png";
 import chromolcd from "/pages/ChromoLCD/chromolcd.png";
-import eelabs from "/pages/EELabs/eelabs.jpg";
+// import eelabs from "/pages/EELabs/eelabs.jpg";
 import flowerautomata from "/pages/Automata/flowerautomata.jpg";
 import firstrobotics from "/pages/FIRSTRobotics/firstrobotics.png";
 import garcia from "/pages/Garcia/garcia.jpg";
@@ -23,14 +23,6 @@ const Projects: React.FC = () => {
     // To add a new project, add another dictionary to the list with the
     // proper key-value pairs.
   const projects = [
-    {
-      title: "Oligo Spacecraft Engineering Internship",
-      description:
-        "Working as a spacecraft engineering intern for Oligo Space.",
-      link: "/oligo", // Be careful not to include the .md!
-      directoryPrefix: "/Oligo",
-        imageURL: oligo, // Name of the heading image
-    },
     {
       title: "Puzzle Wall",
       description:
@@ -64,28 +56,12 @@ const Projects: React.FC = () => {
         imageURL: gocart, // Name of the heading image
     },
     {
-      title: "Hacker Fab",
-      description:
-        "Co-founding an MIT chapter of Hacker Fab to create a DIY nanofabrication machine.",
-      link: "/hackerfab", // Be careful not to include the .md!
-      directoryPrefix: "/HackerFab",
-        imageURL: hackerfab, // Name of the heading image
-    },
-    {
       title: "ChromoLCD",
       description:
         "Creating a device for reprogramming photochromatic surfaces at the MIT Human Computer Interaction Engineering Lab!",
       link: "/chromolcd", // Be careful not to include the .md!
       directoryPrefix: "/ChromoLCD",
         imageURL: chromolcd, // Name of the heading image
-    },
-    {
-      title: "Electronic and Circuits Labs",
-      description:
-        "Documentation of various labs related to electronics and circuits!",
-      link: "/eelabs", // Be careful not to include the .md!
-      directoryPrefix: "/EELabs",
-        imageURL: eelabs, // Name of the heading image
     },
     {
       title: "Flower Automata",
